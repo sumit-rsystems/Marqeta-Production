@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Id</field>
+    </columns>
+    <columns>
+        <field>Contact$Zoho_Contact_ID__c</field>
+    </columns>
+    <columns>
+        <field>Contact$RecordType</field>
+    </columns>
+    <columns>
+        <field>Contact$Account</field>
+    </columns>
+    <columns>
+        <field>Contact$LastName</field>
+    </columns>
+    <columns>
+        <field>Contact$Phone</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Contact$Zoho_Contact_ID__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Contacts Created Today 09052013</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Only_Contacts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Contact$CreatedDate</dateColumn>
+        <endDate>2013-09-05</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2013-09-05</startDate>
+    </timeFrameFilter>
+</Report>

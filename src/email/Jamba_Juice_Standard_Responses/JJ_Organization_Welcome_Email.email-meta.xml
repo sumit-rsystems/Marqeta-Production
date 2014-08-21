@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome Email Sent to Accepted Organizations</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>JJ STS Organization Welcome Email</name>
+    <style>none</style>
+    <subject>Welcome to Sip to Support, the fundraising card program!</subject>
+    <textOnly>Dear {!Contact.FirstName},  
+
+Welcome to the Jamba Juice Sip to Support fundraising program powered by Marqeta! Organizations like yours are vital to our communities and helping kids understand the importance of maintaining healthy and active lifestyles.  
+
+We want to ensure your fundraising goals are successful. That’s why we created the Sip to Support Resource Center (http://demoserver.marqeta.com/jambajuice/)
+with helpful tips and tools you can use to get everyone excited about the Sip to Support fundraising program!  
+
+Get the word out (and start raising funds!) by:  
+
+1. Signing up for your own Card at jambajuice.marqeta.com 
+2. Emailing your supporters about the program 
+3. Adding a web banner to your site 
+4. Posting on Facebook  
+
+If you cannot find what you are looking for in the Sip to Support Resource Center (http://demoserver.marqeta.com/jambajuice/), please let us know. We want to ensure that your efforts get you results. .  
+
+Again, thanks for joining Jamba Juice’s Sip to Support Program!  We appreciate everything you do to help our kids.  
+
+The more you’re sippin’, the more we’re givin’!  
+
+Your Sip to Support Team 
+jambajuice@marqeta.com 
+888-462-7738</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Jamba Juice Auto Response</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Jamba Auto-Reponse</name>
+    <style>none</style>
+    <subject>Thank you for contacting us about the Sip-To-Support Program</subject>
+    <type>text</type>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>plus number Balance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>plus number Balance</value>
+    </caseValues>
+    <fields>
+        <label><!-- Customers --></label>
+        <name>Customers__c</name>
+        <relationshipLabel><!-- plus number Balance --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- description --></label>
+        <name>description__c</name>
+    </fields>
+    <fields>
+        <label><!-- plus_number --></label>
+        <name>plus_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- reference_type --></label>
+        <name>reference_type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

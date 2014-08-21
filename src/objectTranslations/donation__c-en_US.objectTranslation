@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>donation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>donations</value>
+    </caseValues>
+    <fields>
+        <label><!-- amount --></label>
+        <name>amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- customer_id --></label>
+        <name>customer_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- donation_type --></label>
+        <name>donation_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- organization_id --></label>
+        <name>organization_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- program_id --></label>
+        <name>program_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- store_id --></label>
+        <name>store_id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

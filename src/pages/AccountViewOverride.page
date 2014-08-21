@@ -1,0 +1,61 @@
+<apex:page standardController="Account" showHeader="true"
+tabStyle="Account">
+<style>
+
+.activeTab {background-color: #236FBD; color:white;
+background-image:none}
+.inactiveTab { background-color: white; color:black;
+background-image:none}
+</style>
+
+<apex:tabPanel switchType="client" selectedTab="tabdetails" id="AccountTabPanel" tabClass="activeTab" inactiveTabClass="inactiveTab">
+<apex:tab label="Account Details" name="AccDetails" id="tabdetails">
+<apex:detail relatedList="false" relatedListHover="false"
+title="true" inlineEdit="true"/>
+</apex:tab>
+
+<apex:tab label="Stores" name="Stores" id="tabStores">
+<apex:relatedList subject="{!account}" list="Stores__r" />
+</apex:tab>
+
+<apex:tab label="Opportunities" name="Available
+Opportunities" id="tabAvOpp">
+<apex:relatedList subject="{!account}" list="Opportunities" />
+</apex:tab>
+
+<apex:tab label="Contacts" name="Contacts" id="tabContact">
+<apex:relatedList subject="{!account}" list="contacts" />
+</apex:tab>
+
+<apex:tab label="Cases" name="Cases" id="tabCases">
+<apex:relatedList subject="{!account}" list="Cases" />
+</apex:tab> 
+
+<apex:tab label="Transactions" name="Transactions" id="tabTransactions">
+<apex:relatedList subject="{!account}" list="Transactions__r" />
+</apex:tab>
+
+<apex:tab label="AccountUserRoles" name="AccountUserRoles" id="tabAccUserRole">
+<apex:relatedList subject="{!account}" list="AccountUserRoles__r" />
+</apex:tab>
+
+<apex:tab label="Open Activities" name="OpenActivities"
+id="tabOpenAct">
+<apex:relatedList subject="{!account}"
+list="OpenActivities" />
+</apex:tab>
+
+<apex:tab label="Activity History" name="ActivityHistory"
+id="tabActHist" >
+<apex:relatedList subject="{!account}"
+list="ActivityHistories" pageSize="15" />
+</apex:tab>
+
+<apex:tab label="Notes and Attachments"
+name="NotesAndAttachments" id="tabNews">
+<apex:relatedList subject="{!account}"
+list="NotesAndAttachments" />
+</apex:tab>
+
+</apex:tabPanel>
+</apex:page>

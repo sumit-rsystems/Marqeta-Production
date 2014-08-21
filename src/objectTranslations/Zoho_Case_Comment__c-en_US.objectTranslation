@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zoho Case Comment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zoho Case Comments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Request ID --></label>
+        <name>Case_Request_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment Created By Name --></label>
+        <name>Comment_Created_By_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment Created Time Text --></label>
+        <name>Comment_Created_Time_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pending --></label>
+        <name>Is_Pending__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoho Case --></label>
+        <name>Zoho_Case__c</name>
+        <relationshipLabel><!-- Zoho Case Comments --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Zoho Case Comment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

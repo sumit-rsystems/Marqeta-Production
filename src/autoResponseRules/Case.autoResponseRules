@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Jamba Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Jamba Juice via Email</value>
+            </criteriaItems>
+            <replyToEmail>jambajuice@marqeta.com</replyToEmail>
+            <senderEmail>noreply@marqeta.com</senderEmail>
+            <senderName>Jamba Support</senderName>
+            <template>unfiled$public/Jamba_Auto_Reponse</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Support via Email</value>
+            </criteriaItems>
+            <replyToEmail>support@marqeta.com</replyToEmail>
+            <senderEmail>noreply@marqeta.com</senderEmail>
+            <senderName>Marqeta Support</senderName>
+            <template>unfiled$public/Core_Support</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

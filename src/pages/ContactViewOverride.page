@@ -1,0 +1,47 @@
+<apex:page standardController="Contact" showHeader="true"
+tabStyle="Contact">
+<style>
+
+.activeTab {background-color: #236FBD; color:white;
+background-image:none}
+.inactiveTab { background-color: white; color:black;
+background-image:none}
+</style>
+
+<apex:tabPanel switchType="client" selectedTab="tabdetails" id="ContactTabPanel" tabClass="activeTab" inactiveTabClass="inactiveTab">
+<apex:tab label="Contact Details" name="ContDetails" id="tabdetails">
+<apex:detail relatedList="false" relatedListHover="false" title="true" inlineEdit="true"/>
+</apex:tab>
+
+<apex:tab label="Cases" name="Cases" id="tabCases">
+<apex:relatedList subject="{!contact}" list="Cases" />
+</apex:tab>
+
+<apex:tab label="Cards" name="Card" id="tabCard">
+<apex:relatedList subject="{!contact}" list="Card__r" />
+</apex:tab>
+
+<apex:tab label="Transactions" name="Transactions" id="tabTransactions">
+<apex:relatedList subject="{!contact}" list="Transactions__r" />
+</apex:tab>
+
+<apex:tab label="Open Activities" name="OpenActivities"
+id="tabOpenAct">
+<apex:relatedList subject="{!contact}"
+list="OpenActivities" />
+</apex:tab>
+
+<apex:tab label="Activity History" name="ActivityHistory"
+id="tabActHist" >
+<apex:relatedList subject="{!contact}"
+list="ActivityHistories" pageSize="15" />
+</apex:tab>
+
+<apex:tab label="Notes and Attachments"
+name="NotesAndAttachments" id="tabNews">
+<apex:relatedList subject="{!contact}"
+list="NotesAndAttachments" />
+</apex:tab>
+
+</apex:tabPanel>
+</apex:page>

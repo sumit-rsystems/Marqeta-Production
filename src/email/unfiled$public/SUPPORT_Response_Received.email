@@ -1,0 +1,5 @@
+RE: Case Number {!Case.CaseNumber}
+
+A response has been received from {!Card_Holder_del__c.Name}.
+
+Please review when you have a minute.

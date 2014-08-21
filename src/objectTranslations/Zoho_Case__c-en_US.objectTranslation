@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zoho Case</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zoho Cases</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date Text --></label>
+        <name>Due_Date_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Text --></label>
+        <name>Email_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Escalated --></label>
+        <name>Is_Escalated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Overdue --></label>
+        <name>Is_Overdue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_Text --></label>
+        <name>Phone_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Id --></label>
+        <name>Reference_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Closed Time Text --></label>
+        <name>Request_Closed_Time_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Created By Name --></label>
+        <name>Request_Created_By_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Created Time Text --></label>
+        <name>Request_Created_Time_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Id --></label>
+        <name>Request_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Modified By Name --></label>
+        <name>Request_Modified_By_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Modified Time Text --></label>
+        <name>Request_Modified_Time_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Owner Name --></label>
+        <name>Request_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution --></label>
+        <name>Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Category --></label>
+        <name>Sub_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Address --></label>
+        <name>To_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoho Request ID --></label>
+        <name>Zoho_Request_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Zoho Case Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Zoho Dates --></label>
+            <section>Zoho Dates</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PlusMCampaign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PlusMCampaigns</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- PlusMCampaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- mysql db id field --></help>
+        <label><!-- Record ID --></label>
+        <name>Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- brand_id --></label>
+        <name>brand_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consider Donation Creation --></label>
+        <name>consider_donation_creation_on_marqeta_ca__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption Info --></label>
+        <name>redemption_info__c</name>
+    </fields>
+    <layouts>
+        <layout>PlusMCampaign Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

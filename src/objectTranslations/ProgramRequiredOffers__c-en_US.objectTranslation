@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ProgramRequiredOffer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ProgramRequiredOffers</value>
+    </caseValues>
+    <fields>
+        <label><!-- created_at --></label>
+        <name>created_at__c</name>
+    </fields>
+    <fields>
+        <label><!-- deal_id --></label>
+        <name>deal_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- program_id --></label>
+        <name>program_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- updated_at --></label>
+        <name>updated_at__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

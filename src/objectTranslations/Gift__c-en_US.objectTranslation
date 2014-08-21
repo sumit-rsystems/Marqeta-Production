@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gift</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Gifts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Gifts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redeemed</masterLabel>
+            <translation><!-- Redeemed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- deal_id --></label>
+        <name>deal_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- giftee_first_name --></label>
+        <name>giftee_first_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Giftee_id --></label>
+        <name>giftee_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- giftee_last_name --></label>
+        <name>giftee_last_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gifter_id --></label>
+        <name>gifter_id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

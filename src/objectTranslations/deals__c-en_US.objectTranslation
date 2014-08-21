@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Featured --></label>
+        <name>Featured__c</name>
+    </fields>
+    <fields>
+        <label><!-- PlusMCampaign --></label>
+        <name>PlusMCampaign__c</name>
+        <relationshipLabel><!-- Deals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- mysql Id --></help>
+        <label><!-- PushMCampaign Id --></label>
+        <name>PushMCampaign_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql db field --></help>
+        <label><!-- Record Id --></label>
+        <name>Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Amount --></label>
+        <name>Trigger_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- auto_reload_enabled --></label>
+        <name>auto_reload_enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- campaign_code --></label>
+        <name>campaign_code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign ID --></label>
+        <name>campaign_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- commited_dollars_limit --></label>
+        <name>commited_dollars_limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- committed_amount --></label>
+        <name>committed_amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- deals_taken_count --></label>
+        <name>deals_taken_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- enabled --></label>
+        <name>enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- End --></label>
+        <name>end__c</name>
+    </fields>
+    <fields>
+        <label><!-- is_program_specific --></label>
+        <name>is_program_specific__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Deals --></label>
+        <name>maximum_deals__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximum_deals_per_user --></label>
+        <name>maximum_deals_per_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- reward_dollars_budget --></label>
+        <name>reward_dollars_budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- reward_expiration --></label>
+        <name>reward_expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>short_description__c</name>
+    </fields>
+    <fields>
+        <label><!-- spent_amount --></label>
+        <name>spent_amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start --></label>
+        <name>start__c</name>
+    </fields>
+    <fields>
+        <label><!-- total_reward_count --></label>
+        <name>total_reward_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- total_sold_count --></label>
+        <name>total_sold_count__c</name>
+    </fields>
+    <layouts>
+        <layout>deal Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

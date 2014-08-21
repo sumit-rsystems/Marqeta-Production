@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ProgramEnrollment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ProgramEnrollments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Customer ID --></label>
+        <name>CustomerID__c</name>
+        <relationshipLabel><!-- ProgramEnrollments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <relationshipLabel><!-- ProgramEnrollments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- customer_id --></label>
+        <name>customer_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- donation_percentage --></label>
+        <name>donation_percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- program_id --></label>
+        <name>program_id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

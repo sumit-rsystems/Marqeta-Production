@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Program</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Programs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ProgramTTV --></label>
+        <name>ProgramTTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql Id --></help>
+        <label><!-- Record ID --></label>
+        <name>Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepts Donations --></label>
+        <name>accepts_donations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepts Enrollments --></label>
+        <name>accepts_enrollments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allows Gifting --></label>
+        <name>allows_gifting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Donation Context --></label>
+        <name>donation_context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Donation Percentage --></label>
+        <name>donation_percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Donation Type --></label>
+        <name>donation_type__c</name>
+    </fields>
+    <layouts>
+        <layout>Program Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

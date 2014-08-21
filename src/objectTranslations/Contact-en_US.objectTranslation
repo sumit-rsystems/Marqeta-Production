@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Birthdate --></label>
+        <name>Birthdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Photo --></label>
+        <name>Customer_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of  Last Purchase --></label>
+        <name>DateOfLastPurchase__c</name>
+    </fields>
+    <fields>
+        <help><!-- Max Transaction Date for PO --></help>
+        <label><!-- Date of Last Purchase --></label>
+        <name>Date_of_LastPurchase__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last PO - Contact Start Date --></help>
+        <label><!-- Days from Last Purchase (POS) --></label>
+        <name>DateofLast_POS__c</name>
+    </fields>
+    <fields>
+        <help><!-- First POS Date - First PO Date --></help>
+        <label><!-- Days From First Offer Taken To First POS --></label>
+        <name>DaysFromFirstOfferTakenToFirstPos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days From Signup To First Offer Taken --></label>
+        <name>DaysFromSignupToFirstOfferTaken__c</name>
+    </fields>
+    <fields>
+        <help><!-- First PO Date - Contact Start Date --></help>
+        <label><!-- Days From Signup To 1st Offer Taken --></label>
+        <name>Days_from_1st_signup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email X --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Password --></label>
+        <name>Encrypted_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Manually createed --></label>
+        <name>IsManually_createed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last POS Date --></label>
+        <name>Last_POS_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last PO Date --></label>
+        <name>Last_PO_Date__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Advertisement</masterLabel>
+            <translation><!-- Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracted Lead Gen</masterLabel>
+            <translation><!-- Contracted Lead Gen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation><!-- Employee Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Referral</masterLabel>
+            <translation><!-- External Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming Inquiry</masterLabel>
+            <translation><!-- Incoming Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rob</masterLabel>
+            <translation><!-- Rob --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Team</masterLabel>
+            <translation><!-- Sales Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar - Partner</masterLabel>
+            <translation><!-- Seminar - Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation><!-- Trade Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word of mouth</masterLabel>
+            <translation><!-- Word of mouth --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- db external key --></help>
+        <label><!-- Marqeta Card ID --></label>
+        <name>Marketa_Card_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Merchants --></label>
+        <name>No_of_Merchants__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Offers taken --></label>
+        <name>NumOffersTaken__c</name>
+    </fields>
+    <fields>
+        <label><!-- # POS transactions --></label>
+        <name>NumPosTransactions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total of PO Transactions --></help>
+        <label><!-- Num Offers Taken --></label>
+        <name>Num_OffersTaken__c</name>
+    </fields>
+    <fields>
+        <label><!-- #gifts given --></label>
+        <name>NumofGiftsGiven__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Gifts received --></label>
+        <name>NumofGiftsReceived__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Merchants --></label>
+        <name>NumofMerchants__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Record Id --></label>
+        <name>Organization_Record_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total of POS Transactions --></help>
+        <label><!-- Total # POS Transactions --></label>
+        <name>POS_Transactions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password Salt --></label>
+        <name>Password_Salt__c</name>
+    </fields>
+    <fields>
+        <label><!-- +M Score --></label>
+        <name>PlusMScore__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql db field --></help>
+        <label><!-- Record ID --></label>
+        <name>Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reset Password Token --></label>
+        <name>Reset_Password_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Services</masterLabel>
+            <translation><!-- Partner Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship Manager</masterLabel>
+            <translation><!-- Relationship Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Sum of all POS Transactions --></help>
+        <label><!-- TTV $ Amt --></label>
+        <name>TTV_Amt__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTV --></label>
+        <name>TTV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>Website__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st POS Date --></label>
+        <name>X1st_POS_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st PO Date --></label>
+        <name>X1st_PO_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- First POS Date - First PO Date --></help>
+        <label><!-- Days From First Offer Taken To First POS --></label>
+        <name>Xst_POS_offer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zoho Contact ID --></label>
+        <name>Zoho_Contact_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Affiliate Organization --></label>
+        <name>affiliate_organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authentication Token --></label>
+        <name>authentication_token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized --></label>
+        <name>authorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- beta application --></label>
+        <name>beta_application__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the which physical card the Cardholder is carrying. --></help>
+        <label><!-- Card Product --></label>
+        <name>cardProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- cim id --></label>
+        <name>cim_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Relationship --></label>
+        <name>contact_relationship_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Sign In At --></label>
+        <name>current_sign_in_at__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Sign In IP --></label>
+        <name>current_sign_in_ip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Id --></label>
+        <name>employee_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer --></label>
+        <name>employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>endDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Foursquare Checkin on Card Swipe --></label>
+        <name>foursquare_checkin_on_card_swipe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Foursquare Enabled --></label>
+        <name>foursquare_enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- GPA Auth Allowed --></label>
+        <name>gpaAuthAllowed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honorific --></label>
+        <name>honorific__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscribed to Transaction Events --></label>
+        <name>is_subscribed_to_transaction_events_thro__c</name>
+    </fields>
+    <fields>
+        <label><!-- JCard ID --></label>
+        <name>jcard_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Sign In At --></label>
+        <name>last_sign_in_at__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Sign In IP --></label>
+        <name>last_sign_in_ip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>mkto2__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program Id --></label>
+        <name>mkto2__Acquisition_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program --></label>
+        <name>mkto2__Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred City --></label>
+        <name>mkto2__Inferred_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Company --></label>
+        <name>mkto2__Inferred_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Country --></label>
+        <name>mkto2__Inferred_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Metropolitan Area --></label>
+        <name>mkto2__Inferred_Metropolitan_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Phone Area Code --></label>
+        <name>mkto2__Inferred_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Postal Code --></label>
+        <name>mkto2__Inferred_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred State Region --></label>
+        <name>mkto2__Inferred_State_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score --></label>
+        <name>mkto2__Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Referrer --></label>
+        <name>mkto2__Original_Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Engine --></label>
+        <name>mkto2__Original_Search_Engine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Phrase --></label>
+        <name>mkto2__Original_Search_Phrase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Info --></label>
+        <name>mkto2__Original_Source_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Type --></label>
+        <name>mkto2__Original_Source_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Supporters --></label>
+        <name>number_of_supporters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Only Show Close to Me Deals --></label>
+        <name>only_show_close_to_me_deals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overflow Payment Profile ID --></label>
+        <name>overflow_payment_profile_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promo Code --></label>
+        <name>promo_code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Real Id --></label>
+        <name>realId__c</name>
+    </fields>
+    <fields>
+        <label><!-- rejection_reason --></label>
+        <name>rejection_reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Share Foursquare Checkins on Facebook --></label>
+        <name>share_foursquare_checkins_on_facebook__c</name>
+    </fields>
+    <fields>
+        <label><!-- Share Foursquare Checkins on Twitter --></label>
+        <name>share_foursquare_checkins_on_twitter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sign in Count --></label>
+        <name>sign_in_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>startDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>status__c</name>
+    </fields>
+    <layouts>
+        <layout>Brand Contact Layout</layout>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cardholder Page Layout</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fields Only for ADMIN Purpose --></label>
+            <section>Fields Only for ADMIN Purpose</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+        <sections>
+            <label><!-- Member Program Information --></label>
+            <section>Member Program Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notification --></label>
+            <section>Notification</section>
+        </sections>
+        <sections>
+            <label><!-- Social Media --></label>
+            <section>Social Media</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Data --></label>
+            <section>Transaction Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Enterprise Page Layout</layout>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Organization - Record Type</layout>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Store - Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo --></label>
+            <section>Marketo</section>
+        </sections>
+        <sections>
+            <label><!-- System --></label>
+            <section>System</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Card Holders Layouts --></label>
+        <name>Card_HolderLayout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Enterprise Record Type --></label>
+        <name>Enterprise_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Merchant Record Type --></label>
+        <name>Merchant_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Organization Record Type --></label>
+        <name>Organization_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Store Record Type --></label>
+        <name>Store_Record_Type</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

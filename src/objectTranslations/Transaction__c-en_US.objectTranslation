@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transactions</value>
+    </caseValues>
+    <fields>
+        <label><!-- AVS Response --></label>
+        <name>AVS_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Number --></label>
+        <name>ApprovalNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Code --></label>
+        <name>Approval_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Reload --></label>
+        <name>Auto_Reload__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql db Id --></help>
+        <label><!-- Card Holder Record Id --></label>
+        <name>CH_RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- CardHolder --></label>
+        <name>CardHolder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Card --></label>
+        <name>Card__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Card Holder --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deal Name --></label>
+        <name>Deal_Name__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deal Record ID --></label>
+        <name>Deal_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- GPA Transaction ID --></label>
+        <name>GPA_Transaction_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ITC --></label>
+        <name>ITC__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRCHT --></label>
+        <name>MRCHT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merchant --></label>
+        <name>Merchant__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- POS = 1 --></label>
+        <name>POS_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- POS Transaction ID --></label>
+        <name>POS_Transaction_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO --></label>
+        <name>PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Profile ID --></label>
+        <name>Payment_Profile_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PurchaseType --></label>
+        <name>PurchaseType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Created at --></label>
+        <name>Record_Created_at__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql db field Id --></help>
+        <label><!-- Record Id --></label>
+        <name>Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Updated at --></label>
+        <name>Record_Updated_at__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reload Trigger Amount --></label>
+        <name>Reload_Trigger_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Subcode --></label>
+        <name>Response_Subcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql db filed --></help>
+        <label><!-- Store Record Id --></label>
+        <name>Store_RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store --></label>
+        <name>Store__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- mysql field id --></help>
+        <label><!-- Transaction ID --></label>
+        <name>Transaction_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>Transaction_Type__c</name>
+        <picklistValues>
+            <masterLabel>POS</masterLabel>
+            <translation><!-- POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PurchaseOrder</masterLabel>
+            <translation><!-- PurchaseOrder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CA City --></label>
+        <name>ca_city__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA Name --></label>
+        <name>ca_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA Region --></label>
+        <name>ca_region__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql db field --></help>
+        <label><!-- Card Record Id --></label>
+        <name>card_record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>date1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funded Customer ID --></label>
+        <name>funded_customer_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- MID --></label>
+        <name>mid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Type --></label>
+        <name>purchase_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Code --></label>
+        <name>reasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Code --></label>
+        <name>responseCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Message --></label>
+        <name>response_message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Settlement Date --></label>
+        <name>settlementDate__c</name>
+    </fields>
+    <layouts>
+        <layout>Purchase Orders</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- mySQL Fields --></label>
+            <section>mySQL Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Transaction Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- mySQL Fields --></label>
+            <section>mySQL Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- PO Record Type --></label>
+        <name>Purchase_Orders</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Transactions Record Type --></label>
+        <name>Transactions</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

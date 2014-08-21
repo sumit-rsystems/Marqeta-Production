@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Card</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cards</value>
+    </caseValues>
+    <fields>
+        <label><!-- Card Holder --></label>
+        <name>Card_Holder__c</name>
+        <relationshipLabel><!-- Cards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Card Product --></label>
+        <name>Card_Product__c</name>
+        <relationshipLabel><!-- Cards --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- mysql field id --></help>
+        <label><!-- Record ID --></label>
+        <name>Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- active --></label>
+        <name>active__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql id field (for customer/ contact) --></help>
+        <label><!-- cardHolder --></label>
+        <name>cardHolder__c</name>
+    </fields>
+    <fields>
+        <help><!-- mysql field (Product Id) --></help>
+        <label><!-- cardProduct --></label>
+        <name>cardProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- endDate --></label>
+        <name>endDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- lastFour --></label>
+        <name>lastFour__c</name>
+    </fields>
+    <fields>
+        <label><!-- lost --></label>
+        <name>lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- startDate --></label>
+        <name>startDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- stolen --></label>
+        <name>stolen__c</name>
+    </fields>
+    <fields>
+        <label><!-- suspended --></label>
+        <name>suspended__c</name>
+    </fields>
+    <layouts>
+        <layout>Card Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

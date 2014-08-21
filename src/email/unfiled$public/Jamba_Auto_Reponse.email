@@ -1,0 +1,11 @@
+Dear {!Case.SuppliedName}, 
+
+Your inquiry "{!Case.Subject}" has been given Case #{!Case.CaseNumber} and assigned to a member from our team. We will respond to you within 24 hours during our normal business hours of Monday – Friday, 8:30am – 6:00pm Pacific Time. If you are contacting us during the weekend or on a holiday, we will contact you the next business day.
+
+We look forward to helping you as soon as possible. Thank you for your patience.
+
+The more you're sippin', the more we're givin'!
+
+Your Sip to Support Team
+jambajuice@marqeta.com
+(888) 462-7738

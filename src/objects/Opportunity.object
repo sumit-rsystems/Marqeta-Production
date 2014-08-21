@@ -1,0 +1,3806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Enterprise Sales Process</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>0-Revisit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-Decision Maker Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-Negotiation %26 Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-Closed Won</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Merchant Sales Process</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>0-Revisit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-Decision Maker Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-Negotiation %26 Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-Closed Won</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Organization Sales Process</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>0-Revisit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-Decision Maker Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-Negotiation %26 Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-Closed Won</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <enableFeeds>true</enableFeeds>
+    <fields>
+        <fullName>AccountId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Average_Ticket_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Average POS Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Blog_Site__c</fullName>
+        <externalId>false</externalId>
+        <label>Blog Site</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Circular_Ads__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Circular Ads</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Community_from_Zoho__c</fullName>
+        <externalId>false</externalId>
+        <label>Community from Zoho</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Competitors_Used__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitors Used</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Groupon</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LivingSocial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Five Star</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Level Up</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MOGL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Shopkick</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SpotOn</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Belly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Consumer_Contests__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>In Store Events/Contests</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Marketing_Activities__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Marketing Activities</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Circular Ad</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Shared Mail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Television</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online Banner Ads</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Direct_Mail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Direct Mail</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Discover_SMR__c</fullName>
+        <externalId>false</externalId>
+        <label>Discover SMR</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Agata Kaufman</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Amy Schneider</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Beth Mintz</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Caroline Marino</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dave Kmiec</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Diana Lopez</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Donna Pagnutti</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Greg Bauske</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jeanette Andino</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jennifer Moreland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kathleen Nafziger</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Michael Canady</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Misty Novich</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pat Reed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pia Feliciano</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Scott Deluga</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stephen Rigopoulous</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Teri Owens</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Todd Douthat</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Email_Database_Size__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Number of email addresses merchant has in its database.</description>
+        <externalId>false</externalId>
+        <label>Email Database Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Frequency__c</fullName>
+        <description>How often is client emailing their database?</description>
+        <externalId>false</externalId>
+        <label>Email Frequency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Solution_Program__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Solution/Program</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Mail Chimp</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Constant Contact</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vertical Response</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SendGrid</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Emails_Newsletters__c</fullName>
+        <externalId>false</externalId>
+        <label>Emails/Newsletters</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Enterprise_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Enterprise Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Advertising Platform</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Affiliate Network</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deal Co</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Employee Incentives/Payroll</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Government Programs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Issuer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Malls/Shopping Centers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Membership Organization</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Network</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Processor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Program Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Social Networks</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Estimated_Initial_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Initial Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Existing_Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Existing Marqeta Partner</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Facebook_Page__c</fullName>
+        <externalId>false</externalId>
+        <label>Facebook Page</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Franchise__c</fullName>
+        <externalId>false</externalId>
+        <label>Franchise</label>
+        <picklist>
+            <picklistValues>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Georgraphy__c</fullName>
+        <externalId>false</externalId>
+        <label>Georgraphy</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ignition_Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Ignition Market</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Industry</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Health &amp; Beauty</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Attractions</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Home &amp; Garden</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HOME</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CLOSEOUT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APPAREL &amp; ACCESSORIES</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OFFICE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MASS MERCHANTS/SUPERCENTERS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contracted Lead Gen</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Incoming Inquiry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seminar - Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Team</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rob</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Marketing_Budget_Term__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing Budget Term</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Annual</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Marketing_Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing Budget</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Marketing_Notes_from_Zoho__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing Notes from Zoho</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_of_Locations__c</fullName>
+        <externalId>false</externalId>
+        <label>No. of Locations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Overall_Sales_Duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall Sales Duration</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Payments Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Commerce partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Corporate Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Potential_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential ID</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Potential_Owner_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential Owner Id</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Programs_Participating_In__c</fullName>
+        <externalId>false</externalId>
+        <label>Programs Participating In</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Core</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Discover</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GoWallet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enterprise Solution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Radio_Ads__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Radio Ads</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Regularly_Posts_to_FB__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Regularly Posts to FB</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Regularly_Tweets__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Regularly Tweets</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Cycle_Duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Cycle Duration</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shared_Mail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Shared Mail</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>0-Revisit</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1-Qualified</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>25</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2-Decision Maker Engaged</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>50</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3-Negotiation &amp; Close</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>85</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4-Closed Won</fullName>
+                <closed>true</closed>
+                <default>false</default>
+                <forecastCategory>Closed</forecastCategory>
+                <probability>100</probability>
+                <won>true</won>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Type</label>
+        <picklist>
+            <controllingField>Type__c</controllingField>
+            <picklistValues>
+                <fullName>National (&gt;$1B Annual Revenue)</fullName>
+                <controllingFieldValues>Merchant</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Regional (&gt;$20M Annual Revenue)</fullName>
+                <controllingFieldValues>Merchant</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Local</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Target_Demographics__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Demographics</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Male</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Female</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Age: 18-24</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Age: 25-34</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Age: 35-49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Age: 50-64</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Age: 65+</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Household Income: $0-$24,999</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Household Income: $25k-$49,999</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Household Income: $50k-$74,999</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Household Income: $75k-$99,999</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Household Income: $100k-$124,999</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Household Income: $125k-$149,999</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Household Income: $150,000+</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Young Families</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Retirees</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Professionals/Singles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Students</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>All</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Professional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mom</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Television_Ads__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Television Ads</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Twitter_Handle__c</fullName>
+        <externalId>false</externalId>
+        <label>Twitter Handle</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Existing Business</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New Business</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Organization</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Website__c</fullName>
+        <externalId>false</externalId>
+        <label>Website</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Zip_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Zip Code</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>category_c__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Attractions / Entertainment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Health &amp; Beauty</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Home &amp; Garden</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>of_Users_Customers__c</fullName>
+        <externalId>false</externalId>
+        <label># of Users/Customers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllOpportunities</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>Christina_T_Opportunities_Open</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>cturk</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>0-Revisit,1-Qualified,2-Decision Maker Engaged,3-Negotiation &amp; Close</value>
+        </filters>
+        <label>Christina T Opportunities Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Christina_T_Opportunities_Won</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>cturk</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>4-Closed Won</value>
+        </filters>
+        <label>Christina T Opportunities Won</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingNextMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>NEXT_MONTH</value>
+        </filters>
+        <label>Closing Next Month</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingThisMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>Closing This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>Mari_B_Opportunities_Closed</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>mbent</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>4-Closed Won</value>
+        </filters>
+        <label>Mari B Opportunities Won</label>
+    </listViews>
+    <listViews>
+        <fullName>Mari_B_Opportunities_Open</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>mbent</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>0-Revisit,1-Qualified,2-Decision Maker Engaged,3-Negotiation &amp; Close</value>
+        </filters>
+        <label>Mari B Opportunities Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Mark_P_Opportunities_Open</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>mprus</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>0-Revisit,1-Qualified,2-Decision Maker Engaged,3-Negotiation &amp; Close</value>
+        </filters>
+        <label>Mark P Opportunities Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Mark_P_Opportunities_Won</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>mprus</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>4-Closed Won</value>
+        </filters>
+        <label>Mark P Opportunities Won</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpportunities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>Omri_D_Opportunities_Won</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>odaha</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>4-Closed Won</value>
+        </filters>
+        <label>Omri D Opportunities Won</label>
+    </listViews>
+    <listViews>
+        <fullName>Omri_Opportunities_Open</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Estimated_Initial_Fee__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>odaha</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>0-Revisit,1-Qualified,2-Decision Maker Engaged,3-Negotiation &amp; Close</value>
+        </filters>
+        <label>Omri Opportunities Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Vic_T_Opportunities_Open</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>vtort</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>0-Revisit,1-Qualified,2-Decision Maker Engaged,3-Negotiation &amp; Close</value>
+        </filters>
+        <label>Vic T Opportunities Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Vic_T_Opportunities_Won</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>vtort</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>4-Closed Won</value>
+        </filters>
+        <label>Vic T Opportunities Won</label>
+    </listViews>
+    <listViews>
+        <fullName>Weekly_BD_Pipeline_for_Monday_am</fullName>
+        <booleanFilter>((1 OR 2) AND 3 AND 4) OR 5</booleanFilter>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Sub_Type__c</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.NEXT_STEP</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>2-Decision Maker Engaged,3-Negotiation &amp; Close</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>3-Negotiation &amp; Close</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>notEqual</operation>
+            <value>Merchant</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Dahan</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Kilroy</value>
+        </filters>
+        <label>Weekly BD Pipeline for Monday am</label>
+    </listViews>
+    <listViews>
+        <fullName>Won</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.WON</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Closed / Won</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Enterprise_Record_Type</fullName>
+        <active>true</active>
+        <businessProcess>Enterprise Sales Process</businessProcess>
+        <description>For all Enterprise related Oppty&apos;s</description>
+        <label>Enterprise Record Type</label>
+        <picklistValues>
+            <picklist>Competitors_Used__c</picklist>
+            <values>
+                <fullName>Belly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Five Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Groupon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LivingSocial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOGL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shopkick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SpotOn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Current_Marketing_Activities__c</picklist>
+            <values>
+                <fullName>Circular Ad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Banner Ads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shared Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Television</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Discover_SMR__c</picklist>
+            <values>
+                <fullName>Agata Kaufman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amy Schneider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beth Mintz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Caroline Marino</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dave Kmiec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diana Lopez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Donna Pagnutti</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greg Bauske</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeanette Andino</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jennifer Moreland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kathleen Nafziger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Canady</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Misty Novich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pat Reed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pia Feliciano</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scott Deluga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Rigopoulous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teri Owens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Todd Douthat</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Email_Solution_Program__c</picklist>
+            <values>
+                <fullName>Constant Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail Chimp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SendGrid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vertical Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Enterprise_Category__c</picklist>
+            <values>
+                <fullName>Advertising Platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affiliate Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Incentives%2FPayroll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government Programs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issuer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Malls%2FShopping Centers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Membership Organization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Networks</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Existing_Business__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Franchise__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry__c</picklist>
+            <values>
+                <fullName>APPAREL %26 ACCESSORIES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attractions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLOSEOUT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Beauty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home %26 Garden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MASS MERCHANTS%2FSUPERCENTERS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OFFICE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contracted Lead Gen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incoming Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rob</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Budget_Term__c</picklist>
+            <values>
+                <fullName>Annual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Type__c</picklist>
+            <values>
+                <fullName>Commerce partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corporate Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payments Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Programs_Participating_In__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Discover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoWallet</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Type__c</picklist>
+            <values>
+                <fullName>National %28%3E%241B Annual Revenue%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional %28%3E%2420M Annual Revenue%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target_Demographics__c</picklist>
+            <values>
+                <fullName>Age%3A 18-24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 25-34</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 35-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 50-64</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 65%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Professional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Female</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %240-%2424%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24100k-%24124%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24125k-%24149%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24150%2C000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2425k-%2449%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2450k-%2474%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2475k-%2499%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Male</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professionals%2FSingles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retirees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Students</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Young Families</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Business</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organization</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>category_c__c</picklist>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attractions %2F Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Beauty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home %26 Garden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Merchant_Record_Type</fullName>
+        <active>true</active>
+        <businessProcess>Merchant Sales Process</businessProcess>
+        <description>For Brands related Oppty&apos;s</description>
+        <label>Merchant Record Type</label>
+        <picklistValues>
+            <picklist>Competitors_Used__c</picklist>
+            <values>
+                <fullName>Belly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Five Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Groupon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LivingSocial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOGL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shopkick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SpotOn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Current_Marketing_Activities__c</picklist>
+            <values>
+                <fullName>Circular Ad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Banner Ads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shared Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Television</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Discover_SMR__c</picklist>
+            <values>
+                <fullName>Agata Kaufman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amy Schneider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beth Mintz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Caroline Marino</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dave Kmiec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diana Lopez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Donna Pagnutti</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greg Bauske</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeanette Andino</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jennifer Moreland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kathleen Nafziger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Canady</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Misty Novich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pat Reed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pia Feliciano</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scott Deluga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Rigopoulous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teri Owens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Todd Douthat</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Email_Solution_Program__c</picklist>
+            <values>
+                <fullName>Constant Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail Chimp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SendGrid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vertical Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Enterprise_Category__c</picklist>
+            <values>
+                <fullName>Advertising Platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affiliate Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Incentives%2FPayroll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government Programs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issuer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Malls%2FShopping Centers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Membership Organization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Networks</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Existing_Business__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Franchise__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry__c</picklist>
+            <values>
+                <fullName>APPAREL %26 ACCESSORIES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attractions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLOSEOUT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Beauty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home %26 Garden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MASS MERCHANTS%2FSUPERCENTERS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OFFICE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contracted Lead Gen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incoming Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rob</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Budget_Term__c</picklist>
+            <values>
+                <fullName>Annual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Type__c</picklist>
+            <values>
+                <fullName>Commerce partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corporate Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payments Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Programs_Participating_In__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Discover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoWallet</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Type__c</picklist>
+            <values>
+                <fullName>National %28%3E%241B Annual Revenue%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional %28%3E%2420M Annual Revenue%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target_Demographics__c</picklist>
+            <values>
+                <fullName>Age%3A 18-24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 25-34</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 35-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 50-64</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 65%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Professional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Female</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %240-%2424%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24100k-%24124%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24125k-%24149%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24150%2C000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2425k-%2449%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2450k-%2474%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2475k-%2499%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Male</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professionals%2FSingles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retirees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Students</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Young Families</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Business</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organization</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>category_c__c</picklist>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attractions %2F Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Beauty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home %26 Garden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Organization_Record_Type</fullName>
+        <active>true</active>
+        <businessProcess>Organization Sales Process</businessProcess>
+        <description>For Organizational related Oppty&apos;s</description>
+        <label>Organization Record Type</label>
+        <picklistValues>
+            <picklist>Competitors_Used__c</picklist>
+            <values>
+                <fullName>Belly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Five Star</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Groupon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level Up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LivingSocial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOGL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shopkick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SpotOn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Current_Marketing_Activities__c</picklist>
+            <values>
+                <fullName>Circular Ad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Banner Ads</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shared Mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Television</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Discover_SMR__c</picklist>
+            <values>
+                <fullName>Agata Kaufman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amy Schneider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beth Mintz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Caroline Marino</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dave Kmiec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diana Lopez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Donna Pagnutti</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greg Bauske</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeanette Andino</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jennifer Moreland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kathleen Nafziger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michael Canady</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Misty Novich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pat Reed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pia Feliciano</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scott Deluga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stephen Rigopoulous</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teri Owens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Todd Douthat</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Email_Solution_Program__c</picklist>
+            <values>
+                <fullName>Constant Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail Chimp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SendGrid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vertical Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Enterprise_Category__c</picklist>
+            <values>
+                <fullName>Advertising Platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affiliate Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Incentives%2FPayroll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government Programs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issuer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Malls%2FShopping Centers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Membership Organization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Program Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Networks</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Existing_Business__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Franchise__c</picklist>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YES</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry__c</picklist>
+            <values>
+                <fullName>APPAREL %26 ACCESSORIES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attractions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLOSEOUT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Beauty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home %26 Garden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MASS MERCHANTS%2FSUPERCENTERS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OFFICE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contracted Lead Gen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incoming Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rob</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Budget_Term__c</picklist>
+            <values>
+                <fullName>Annual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Type__c</picklist>
+            <values>
+                <fullName>Commerce partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corporate Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payments Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Programs_Participating_In__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Discover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoWallet</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Type__c</picklist>
+            <values>
+                <fullName>National %28%3E%241B Annual Revenue%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional %28%3E%2420M Annual Revenue%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target_Demographics__c</picklist>
+            <values>
+                <fullName>Age%3A 18-24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 25-34</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 35-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 50-64</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Age%3A 65%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Professional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Female</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %240-%2424%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24100k-%24124%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24125k-%24149%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %24150%2C000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2425k-%2449%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2450k-%2474%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Household Income%3A %2475k-%2499%2C999</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Male</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professionals%2FSingles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retirees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Students</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Young Families</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Business</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organization</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>category_c__c</picklist>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attractions %2F Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Big Box Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Drug Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dry Cleaners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grocery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Beauty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home %26 Garden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kids</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonprofit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Retailers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>00Ni0000007CLUp</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <validationRules>
+        <fullName>Email_Database_Size</fullName>
+        <active>true</active>
+        <description>If we know the email solution, we should acquire the database size from client.</description>
+        <errorConditionFormula>AND (or(ISPICKVAL( Email_Solution_Program__c ,&apos;Mail Chimp&apos;),  ISPICKVAL( Email_Solution_Program__c ,&apos;Constant Contact&apos;),ISPICKVAL( Email_Solution_Program__c ,&apos;Other&apos;)),  Email_Database_Size__c  &lt;= 0 )</errorConditionFormula>
+        <errorMessage>Email Database size should be greater than zero</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_Partner_Service_can_change_Stage</fullName>
+        <active>true</active>
+        <description>Only Record Owner or Administrator Can Change Field</description>
+        <errorConditionFormula>AND ( ISPICKVAL ( StageName, &quot;4-Closed Won&quot;),
+  AND($Profile.Name  &lt;&gt; 
+&quot;System Administrator&quot;,$Profile.Name  &lt;&gt; 
+&quot;Partner Services, Director&quot;))</errorConditionFormula>
+        <errorMessage>Limited Access: Cannot change the Stage.</errorMessage>
+    </validationRules>
+</CustomObject>

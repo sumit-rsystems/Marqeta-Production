@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>All_Accounts_with_Stores</links>
+    <links>All_Card_Holders</links>
+    <links>All_Deals_grouped_by_Campaigns</links>
+    <links>All_Merchant_Accounts</links>
+    <links>All_Organizational_Records</links>
+    <links>All_Stores</links>
+    <links>Leads_Grouped_by_Users</links>
+    <links>Organizational_Contacts_Accounts</links>
+    <links>PushMCampaign</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>
